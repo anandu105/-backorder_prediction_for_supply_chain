@@ -1,0 +1,6 @@
+ Complexity Involved:
+Since this is an imbalanced classification problem having positive class points very less we have to choose performance metrics accordingly. 
+For this case false negative is a bigger concern than false-positive. Hence for this recall is more important for us than Precision. 
+This is because it is okay to predict a product will go to back order than it is actually to back order as it can be dealt with easily. 
+But it failed to predict product going to back order when it actually went to back order, it will be negatively impacting the company's sales and its reputation along 
+with an additional pressure on the whole supply chain.
